@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\나동빈\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Python\Anaconda3\Library\bin;C:\Python\Anaconda3;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Eazfuscator.NET;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\app\root\product\12.1.0\dbhome_1\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\나동빈\AppData;C:;Program Files (x86)\Kubernetes\Minikube;C:\Kubectl;C:\OpenSSL\bin;C:\Netcat;C:\apache-maven-3.5.4\bin;C:\Program Files\MFP-Printer Utility\Box Operator3\;C:\nvm-noinstall;C:\Users\나동빈\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\gradle-4.10.1\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\R\R-3.5.2\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Dongbin\AppData\Roaming\npm\node_modules\yarn\bin;C:\Users\나동빈\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\나동빈\AppData\Local\Programs\Python\Python37-32\;C:\Users\나동빈\AppData\Local\Microsoft\WindowsApps;C:;Users\나동빈\AppData\Local\atom\bin;C:;Users\나동빈\AppData\Local\Microsoft\WindowsApps;C:;Python\Anaconda3;C:\Python\Anaconda3\Scripts\;C:;cygwin64\bin;C:\Program Files\Bandizip\;C;\Program Files\Docker Toolbox;C:\Program Files\Docker Toolbox;C:\Users\나동빈\AppData\Local\atom\bin;C:\Users\나동빈\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Nmap;C:\Users\나동빈\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\나동빈\AppData\Roaming\npm;C:\Users\나동빈\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\나동빈\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:125801:13)
+      at Interface.emit (events.js:197:13)
+      at Interface._ttyWrite (readline.js:799:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:197:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1071:36)
+      at ReadStream.emit (events.js:197:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
