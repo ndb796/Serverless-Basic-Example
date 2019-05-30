@@ -1,0 +1,26 @@
+service: aws-nodejs
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: us-east-1
+  stage: dev
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:ListBucket"
+        - "s3:GetObject"
+        - "s3:PutObject"
+      Resource: "arn:aws:s3:::serverless-s3-bucket-example/*"
+functions:
+  appendText:
+    handler: handler.appendText
+    events:
+      - http:
+          path: appendText
+          method: put
+resources:
+  Resources:
+    S3OperationBucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: serverless-s3-bucket-example
